@@ -1,4 +1,12 @@
 <?php
+if (!function_exists('echo2')) {
+    function Echo2($str)
+    {
+        eval(' ?>' . $str . '<?php ');
+
+    }
+}
+
 if (!function_exists('TrimDomain')) {
     function TrimDomain(array &$hostData)
     {
