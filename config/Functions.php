@@ -1,7 +1,10 @@
 <?php
 if (!function_exists('echo2')) {
-    function Echo2($str)
+    function echo2($str)
     {
+        global $data;
+        global $overwrite;
+        global $BasePath;
         eval(' ?>' . $str . '<?php ');
 
     }
