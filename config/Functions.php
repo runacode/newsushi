@@ -2,6 +2,8 @@
 if (!function_exists('echo2')) {
     function echo2($str)
     {
+        global $actual_domain;
+        global $actual_link;
         global $data;
         global $overwrite;
         global $BasePath;
