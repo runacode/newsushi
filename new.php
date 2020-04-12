@@ -1,1 +1,1 @@
-<a href="https://www.sushiaiofallon.com/?pid={pixel_id}&domain={domain}">click</a>
+<a href="https://www.sushiaiofallon.com/?pid={pid}&domain={domain}">click</a>
